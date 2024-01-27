@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "pages/api/**/*": {
+      "maxDuration": 300
+    }
+  },
+  "crons": [
+    {
+      "path": "/api/swap",
+      "schedule": "*/5 * * * *"
+    }
+  ]
+}
